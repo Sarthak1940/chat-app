@@ -1,4 +1,6 @@
 export const BACKEND_URL = import.meta.env.VITE_SERVER_URL;
+console.log(BACKEND_URL);
+
 
 export const AUTH_ROUTES = "api/v1/auth";
 
